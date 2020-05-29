@@ -28,6 +28,12 @@ function App() {
                   <TableCell>
                     {pizzalist.nimi}
                   </TableCell>
+                  <TableCell>
+                    {pizzalist.hinta}
+                  </TableCell>
+                  <TableCell>
+                    {pizzalist.pohja}
+                  </TableCell>
                 </TableRow>
               </TableBody>
             </Table>
